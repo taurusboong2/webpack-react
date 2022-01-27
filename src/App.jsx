@@ -1,10 +1,11 @@
 import React from 'react';
 import { hot } from 'react-hot-loader/root';
+import Article from './Article';
 
-const App = (props) => {
+const App = props => {
   return (
     <div>
-      <h1>hello sir</h1>
+      <Article />
     </div>
   );
 };
